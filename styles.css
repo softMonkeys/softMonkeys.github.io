@@ -1,0 +1,97 @@
+html, body {
+    background-color: #C6BCB3;
+    background-image: url(image/guitar.png);
+    background-size: 2500px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+#aboutMe {
+    background-color: #636357;
+    background-image: url(image/ocean.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+#guitarVideo {
+    padding: inherit;
+}
+
+#menu li {
+    list-style: none;
+    display: inline;
+    padding-right: 20px;
+}
+
+#description {
+    font-size: 15px;
+    margin-top: auto;
+}
+
+#mario {
+    height: 24px;
+}
+
+#android {
+    height: 30px;
+}
+
+#engineering {
+    height: 190px
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: auto;
+    padding: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 15px;
+    color: rgb(107, 107, 132);
+}
+
+a {
+	color: #8E9087;
+    text-decoration: none;
+    padding-left: 15px;
+}
+a:hover {
+	color: #5D4E39;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 100%;
+    width: 82%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0% 2.5% 0%;
+    background: #E2E3DF;
+    opacity: 0.95;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+    width: 50%;
+    align-content: flex-end;
+}
+
+table {
+    width: 100%
+}
+
+table, td, th {
+    border: 1px solid #100;
+    border-collapse: collapse
+}
+
+td {
+    padding: 10px;
+}
+
