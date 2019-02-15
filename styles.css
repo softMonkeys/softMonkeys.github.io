@@ -41,6 +41,32 @@ html, body {
     height: 190px
 }
 
+
+#display_results{
+    border: 3px solid #ccd;
+    padding: 18px;
+    height: 60px;
+}
+
+#history{
+    border: 3px solid #ccd;
+    padding: 18px;
+    height: 60px;
+}
+
+.container{
+    width: 450px;
+}
+
+.row{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+button{
+    width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin: auto;
     padding: 15px;
@@ -94,4 +120,3 @@ table, td, th {
 td {
     padding: 10px;
 }
-

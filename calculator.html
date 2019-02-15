@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="description" content="A page for my online calculator">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Calculator</title>
+    <link rel="icon" type="image/png" href="image/titleLOGO.png" />
+
+    <link href="styles.css" rel="stylesheet" type="text/css">
+
+  </head>
+    
+  <body>
+    <p><img src="image/BC.png" alt="LOGO" class="center"></p>
+      
+    <div class="container">
+   
+        
+        <div class="row" id="history">History: </div>
+        <div class="row" id="display_results">0</div>
+        
+        <div class="row">
+            <div class="col-3 number" id="leftBracket"><button type="button" class="btn btn-secondary">(</button></div>
+            <div class="col-3 number" id="rightBracket"><button type="button" class="btn btn-secondary">)</button></div>
+            <div class="col-3 operator" id="delete"><button type="button" class="btn btn-dark">DEL</button></div>
+            <div class="col-3 operator" id="clear"><button type="button" class="btn btn-secondary">AC</button></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-3 number" id="seven"><button type="button" class="btn btn-light">7</button></div>
+            <div class="col-3 number" id="eight"><button type="button" class="btn btn-light">8</button></div>
+            <div class="col-3 number" id="nine"><button type="button" class="btn btn-light">9</button></div>
+            <div class="col-3 operator" id="div"><button type="button" class="btn btn-secondary">/</button></div>
+        </div>
+
+        <div class="row">
+            <div class="col-3 number" id="four"><button type="button" class="btn btn-light">4</button></div>
+            <div class="col-3 number" id="five"><button type="button" class="btn btn-light">5</button></div>
+            <div class="col-3 number" id="six"><button type="button" class="btn btn-light">6</button></div>
+            <div class="col-3 operator" id="mul"><button type="button" class="btn btn-secondary">*</button></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-3 number" id="one"><button type="button" class="btn btn-light">1</button></div>
+            <div class="col-3 number" id="two"><button type="button" class="btn btn-light">2</button></div>
+            <div class="col-3 number" id="three"><button type="button" class="btn btn-light">3</button></div>
+            <div class="col-3 operator" id="sub"><button type="button" class="btn btn-secondary">-</button></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-3 number" id="zero"><button type="button" class="btn btn-light">0</button></div>
+            <div class="col-3" id="decimal"><button type="button" class="btn btn-light">.</button></div>
+            <div class="col-3 operator" id="equal"><button type="button" class="btn btn-primary">=</button></div>
+            <div class="col-3 operator" id="add"><button type="button" class="btn btn-secondary">+</button></div>
+        </div>
+
+    </div>
+      
+    <a href="index.html" title="Intro"><br /><br /><b>Go Back</b></a>
+    
+      
+
+    
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    
+    <script src="eventProcessor.js"></script>
+      
+      
+    
+  </body>
+</html>
