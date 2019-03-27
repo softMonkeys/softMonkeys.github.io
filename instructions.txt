@@ -1,0 +1,8 @@
+URL: https://softmonkeys.github.io/calculator.html
+Browser Tested: Chrome
+Instructions: 
+1. The calculor's url is under the subdirectory of the root directory(assignment#1: personal profolio).
+The zip file contains everything including the assignment#1 source files.
+2. The first box shows you the history of your operation and the second box shows your current operation.
+3. You can enter press the numbers' and operators' buttons, when you are done, press the '=' operator button to show the result.
+4. Have fun playing around!
