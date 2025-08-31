@@ -313,11 +313,28 @@ img {
   gap: 16px;
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
+
+/* Default: Desktop */
 .featuresFour {
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
+
+/* Tablet */
+@media (max-width: 900px) {
+  .featuresFour {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .featuresFour {
+    grid-template-columns: 1fr;
+  }
+}
+
 .featureProblem {
   background: linear-gradient(180deg, #8b0000, transparent);
   border: 1px solid var(--border);
@@ -600,6 +617,27 @@ img {
   align-items: start;
 }
 
+.histy-section {
+  background: #000; /* black background like your slide */
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Background map (optional) */
+.histy-section::before {
+  content: "";
+  background: url("../image/drug.png") no-repeat center center;
+  background-size: cover;
+  opacity: 0.15; /* faint like your slide */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
 .history__content h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
@@ -650,4 +688,38 @@ img {
   .history__grid {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+/* Core Values Section */
+.core-values {
+  background: #000; /* black background like your slide */
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.core-values p {
+  color: var(--muted);
+}
+
+.core-values__inner {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  gap: 40px;
+  align-items: center;
+  position: relative;
+}
+
+/* Background map (optional) */
+.core-values::before {
+  content: "";
+  background: url("../image/canada.png") no-repeat center center;
+  background-size: cover;
+  opacity: 0.15; /* faint like your slide */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
 }
