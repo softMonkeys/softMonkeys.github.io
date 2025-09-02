@@ -10,7 +10,7 @@ const observer = new IntersectionObserver(
       }
     });
   },
-  { threshold: 0.1 }
+  { threshold: 0.2 }
 );
 
 reveals.forEach((el) => observer.observe(el));
@@ -20,3 +20,12 @@ const yearEl = document.getElementById("year");
 if (yearEl) {
   yearEl.textContent = new Date().getFullYear();
 }
+
+document.querySelectorAll('.flip-card').forEach(card => {
+  card.addEventListener('mouseenter', function () {
+    this.classList.add('flipped');
+  });
+  card.addEventListener('mouseleave', function () {
+    this.classList.remove('flipped');
+  });
+});
